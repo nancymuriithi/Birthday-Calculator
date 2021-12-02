@@ -30,6 +30,12 @@ body {
 }
 
 h2 {
+    color: black;
+    font-weight: bold;
+  }
+
+  h5 {
     font-style: italic;
+    font-size: smaller;
     color: brown;
   }
