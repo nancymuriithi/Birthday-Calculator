@@ -77,6 +77,7 @@ function compute(form) {
  
     var gender = (form.gender.value)
     let text1 = "Your Akan name is";
+
     var sundayMale = "Kwasi"
     var mondayMale = "Kwadwo"
     var tuesdayMale = "Kwabena"
@@ -86,19 +87,19 @@ function compute(form) {
     var saturdayMale = "Kwame"
  
         if(akan === 'Sunday' && gender === 'Male'){
-          form.result3.value = sundayMale  }
+          form.result3.value = text1.concat(" ", sundayMale)  }
         if(akan === 'Monday' && gender === 'Male'){
           form.result3.value = text1.concat(" ", mondayMale)  }
         if(akan === 'Tuesday' && gender === 'Male'){
-          form.result3.value = tuesdayMale  }
+          form.result3.value = text1.concat(" ", tuesdayMale)  }
         if(akan === 'Wednesday' && gender === 'Male'){
-          form.result3.value = wednesdayMale  }
+          form.result3.value = text1.concat(" ", wednesdayMale)  }
         if(akan === 'Thursday' && gender === 'Male'){
-          form.result3.value = thursdayMale  }
+          form.result3.value = text1.concat(" ", thursdayMale)  }
         if(akan === 'Friday' && gender === 'Male'){
-          form.result3.value = fridayMale  }
+          form.result3.value = text1.concat(" ", fridayMale)  }
         if(akan === 'Saturday' && gender === 'Male'){
-          form.result3.value = saturdayMale  }
+          form.result3.value = text1.concat(" ", saturdayMale)  }
  
      var sundayFemale = "Akosua"
      var mondayFemale = "Adwoa"
@@ -109,18 +110,18 @@ function compute(form) {
      var saturdayFemale = "Ama"
  
        if(akan === 'Sunday' && gender === 'Female'){
-         form.result3.value = sundayFemale  }
+         form.result3.value = text1.concat(" ", sundayFemale)  }
        if(akan === 'Monday' && gender === 'Female'){
-         form.result3.value = mondayFemale  }
+         form.result3.value = text1.concat(" ", mondayFemale)  }
        if(akan === 'Tuesday' && gender === 'Female'){
-         form.result3.value = tuesdayFemale  }
+         form.result3.value = text1.concat(" ", tuesdayFemale)  }
        if(akan === 'Wednesday' && gender === 'Female'){
-         form.result3.value = wednesdayFemale  }
+         form.result3.value = text1.concat(" ", wednesdayFemale)  }
        if(akan === 'Thursday' && gender === 'Female'){
-         form.result3.value = thursdayFemale  }
+         form.result3.value = text1.concat(" ", thursdayFemale)  }
        if(akan === 'Friday' && gender === 'Female'){
-         form.result3.value = fridayFemale  }
+         form.result3.value = text1.concat(" ", fridayFemale)  }
        if(akan === 'Saturday' && gender === 'Female'){
-         form.result3.value = saturdayFemale  }
+         form.result3.value = text1.concat(" ", saturdayFemale)  }
    }
  
