@@ -1,9 +1,116 @@
 <!DOCTYPE html>
-    <head>
-        <title>Birthday Calculator</title>
-        <link href="css/bootstrap/css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
-        <script src="script.js" charset="utf-8"></script>
-    <body>
-    </body>
-    </head>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Birth Day Calculator</title>
+    <link href="css/bootstrap/css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="css/cssstyle.css" type="text/css">
+    <script src="script.js" charset="utf-8"></script>
+  </head>
+  <body >
+     <div class="Myheader card">
+        <h3>Birth Day Calculator</h3>
+        <p>Find out the Day or the Week you were born and your Akan Name!</p>
+      </div>
+      <div class="row Mycontent " >
+        <div class="col-sm-7" >
+            <p>Most people do know when their birthdays are, but some might not know what day of the week they were born. Luckily for us, there are ways to calculate the day of the week from a specific date. </p>
+            <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+          <div class="float-left">
+            <p style="padding-left: 40px;">Male</p>
+            <ul>
+               <li>Sunday: Kwasi</li>
+               <li>Monday: Kwadwo</li>
+               <li>Tuesday: Kwabena</li>
+               <li>Wednesday: Kwaku</li>
+               <li>Thursday: Yaw</li>
+               <li>Friday: Kofi</li>
+               <li>Saturday: Kwame</p></li>
+            </ul>
+          </div>
+          <div class="float-right">
+            <p style="padding-left: 40px;">Female</p>
+            <ul>
+                <li>Sunday: Akosua</li>
+                <li>Monday: Adwoa</li>
+                <li>Tuesday: Abenaa</li>
+                <li>Wednesday: Akua</li>
+                <li>Thursday: Yaa</li>
+                <li>Friday: Afua</li>
+                <li>Saturday: Ama</li>
+            </ul>
+          </div>
+      </div>
+        <div class="col-sm-5" >
+          <form class="" action="index.html" method="post">
+            <table>
+              <tr>
+                <td>
+                  <div class="form-group">
+                    <label for="Day">Day</label>
+                    <input type="text" class="form-control" name="day" placeholder="DD" required="true">
+                  </div>
+                </td>
+                <td>
+                  <div class="form-group">
+                    <label for="Month">Month</label>
+                    <input type="text" class="form-control" name="month" placeholder="MM" required="true">
+                  </div>
+                </td>
+              </tr>
+              <tr >
+                <td>
+                  <div class="form-group">
+                    <label for="Year">Year</label>
+                    <input type="text" class="form-control" name="year" placeholder="YYYY" required="true">
+                  </div>
+                </td>
+                <td>
+                  <div class="form-group">
+                    <label for="Gender">Gender</label>
+                    <select type="text" class="form-control" name="gender" >
+                      <option selected disabled value="">--Select Gender--</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                    <input type="button" class="btn btn-primary" value="Submit" onclick="compute(this.form)">
+                    <input type="reset" class="btn btn-danger float-right" value="Clear">
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-group">
+                    <label for="DOB">Date of Birth</label>
+                    <input type="text" class="form-control" name="result1" >
+                  </div>
+                </td>
+                <td>
+                  <div class="form-group">
+                    <label for="DOW">Day of Week</label>
+                    <input type="text" class="form-control" name="result2">
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                  <div>
+                    <label for="Akan">Akan Name</label>
+                    <textarea type="text" class="form-control" name="result3"></textarea>
+                </div>
+              </tr>
+            </table>
+          </form>
+        </div>
+    </div>
+      <div class="Myfooter card">
+        <h5>My Portfolio</h5>
+        <h5>© 2021 nancymuriithi. All Rights Reserved.</h5>
+    </div>
+</body>
 </html>
