@@ -1,4 +1,4 @@
-# BirthDay Calculator
+# Birthday Calculator
 This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 
 # Author
@@ -42,7 +42,7 @@ Female
 Any browser with access to JSFiddle or JavaScript Console
 
 # Setup Instructions and Installation
-The repo is available on Github page https://nancymuriithi.github.io/myportfolio/
+The repo is available on Github page https://nancymuriithi.github.io/Birthday-Calculator/
 Clone the repository to a location in your file system. git clone https://github.com/nancymuriithi/Birthday-Calculator.git
 Open terminal command line then navigate to the root folder of the application. cd BirthDay-Calculator
 Open index.html on your Browser.
