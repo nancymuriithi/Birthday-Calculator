@@ -1,5 +1,5 @@
 .Myheader {
-  background-color: lightgrey;
+  background-color: gray;
   padding: 20px;
   text-align: center;
   margin: auto;
@@ -16,7 +16,7 @@
 }
 
 .Myfooter{
-  background-color: lightgrey;
+  background-color: gray;
   padding: 20px;
   text-align: center;
   margin: auto;
@@ -25,7 +25,11 @@
   }
 
 body {
-  background-color: brown;
+  background-image: url('/images/bgimage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: 100%;
   padding: 20px;
 }
 
@@ -37,5 +41,5 @@ h2 {
   h5 {
     font-style: italic;
     font-size: smaller;
-    color: brown;
+    color: black;
   }
