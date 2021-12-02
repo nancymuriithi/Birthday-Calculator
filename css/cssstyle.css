@@ -1,4 +1,4 @@
-.header {
+.Myheader {
   background-color: lightgrey;
   padding: 20px;
   text-align: center;
@@ -7,7 +7,7 @@
   align-content: center;
 }
 
-.content {
+.Mycontent {
   background-color: white;
   padding: 20px;
   margin: auto;
@@ -15,24 +15,14 @@
   align-content: center;
 }
 
-.footer{
+.Myfooter{
   background-color: lightgrey;
   padding: 20px;
   text-align: center;
   margin: auto;
   max-width: 1100px;
   align-content: center;
-}
-
-.left {
-align-content: left;
-float: left;
-}
-
-.right {
-    align-content: right;
-padding-left: 40px;
-}
+  }
 
 body {
   background-color: brown;
